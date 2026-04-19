@@ -14,3 +14,11 @@ The results show that Random Forest generally performs better than Linear Regres
 The model comparison is visualized by plotting actual vs predicted closing prices.
 Overall, the predictions are approximate because stock prices are influenced by many unpredictable external factors such as news and market conditions.
 TASK 3
+Objective
+The objective of this task is to build a machine learning model that can predict whether a person is at risk of heart disease based on their medical and lifestyle-related health data.
+Dataset
+The dataset used is the Heart Disease UCI Dataset, available on Kaggle. It contains patient health information such as age, cholesterol level, blood pressure, chest pain type, resting ECG results, maximum heart rate, and other clinical attributes. The target variable indicates whether the person has heart disease (1) or not (0), making it a binary classification problem.
+Models Applied
+Two main classification models can be used for this task: Logistic Regression and Decision Tree. Logistic Regression is used as a baseline model for binary classification, while Decision Tree is used to capture non-linear relationships between medical features and heart disease risk. Both models are trained on the cleaned dataset and tested for performance.
+📈 Key Results and Findings
+The models are evaluated using accuracy, confusion matrix, and ROC-AUC score to measure performance. The Decision Tree model often performs slightly better than Logistic Regression due to its ability to handle complex feature interactions. The confusion matrix helps identify correct and incorrect predictions, while the ROC curve shows how well the model distinguishes between patients with and without heart disease. Feature analysis shows that factors like chest pain type, maximum heart rate, and cholesterol levels are important indicators in predicting heart disease risk.
